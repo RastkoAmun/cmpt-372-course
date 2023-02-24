@@ -1,0 +1,36 @@
+body{
+  font-family: sans-serif;
+}
+
+input, button{
+  border: 2px solid blakc;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 50px;
+  font-size: 1.5em;
+}
+
+.form{
+  width: 230px;
+  padding: 15px;
+  display: flex;
+}
+
+button{
+  width: 212px;
+}
+
+h1{
+  width: 250px;
+  text-align: center;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  
+}
