@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form>
+    <input type="text" name="name" placeholder="random text">
+    <div>
+      <p>Do you like CMPT 372?</p>
+      <input type="radio" id="yes" name="sameRadButt" value="YES">
+      <label for="yes">YES</label>
+    </div>
+    <div>
+      <input type="radio" id="no" name="sameRadButt" value="NO">
+      <label for="no">NO</label>
+    </div>
+    <div>Favorite framework?
+      <select name="cars" id="cars">
+        <option value="volvo">React</option>
+        <option value="saab">Angular</option>
+        <option value="mercedes">Vue</option>
+      </select>
+    </div>
+    <button onsubmit="addUser()"> Submit </button>
+  </form>
+</body>
+</html>
